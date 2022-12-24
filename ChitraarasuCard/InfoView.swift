@@ -19,7 +19,7 @@ struct InfoView: View {
             .frame( height: 50)
             .overlay(HStack {
                 Image(systemName: icon).foregroundColor(.green)
-                Text(title)
+                Text(title).foregroundColor(Color("commonTextColor"))
             })
             .padding(.all)
     }
